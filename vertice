@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+class vertice {
+  arista arista1=new arista();
+void draw() {
+  if (mousePressed == true && firstPress == 1 && mouseButton == LEFT) {
+    firstPress = 0;
+    x0 = mouseX;
+    y0 = mouseY;
+      v1 = new PVector(x0, y0);
+    point(x0, y0);
+v11=x0;
+  v22=y0;
+  }
+  
+  if (mousePressed == true && firstPress == 0 && mouseButton == LEFT) {
+ 
+    x = mouseX;
+    y = mouseY;
+    point(x, y);
+    arista1.ar();
+  
+    x0 = x;
+    y0 = y;
+    
+  }
+  }
+  }
